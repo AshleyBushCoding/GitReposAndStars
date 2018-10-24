@@ -47,7 +47,7 @@ Should produce the error message page.
 A user that will have a very small (less than 5) result tree: http://127.0.0.1:5000/api/v1/resources/reposandgazers?id=AshleyBushCoding
 
 
-A user that will have a very small (less than 5) result tree: http://127.0.0.1:5000/api/v1/resources/reposandgazers?id=DuilioAquino
+A user that will have no result tree: http://127.0.0.1:5000/api/v1/resources/reposandgazers?id=DuilioAquino
 
 
 No user name: 
