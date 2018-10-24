@@ -19,7 +19,10 @@ Navigate the api by going to the appropriate page:
 
 Homepage: http://127.0.0.1:5000/
 
-ReposAndGazers page: http://127.0.0.1:5000/api/v1/resources/followers?id=NAME&maxNumGazers=NUMBER&maxNumRepos=NUMBER , replacing NAME with the username of the GitHub user searched for, and NUMBER with the max number of stargazers or repos per user you want returned (maximum is no more than 3 per user). Full example URL: http://127.0.0.1:5000/api/v1/resources/reposandgazers?id=palantir&maxNumGazers=2&maxNumRepos=1
+ReposAndGazers page: http://127.0.0.1:5000/api/v1/resources/followers?id=NAME&maxNumGazers=NUMBER&maxNumRepos=NUMBER ,
+replacing NAME with the username of the GitHub user searched for, and NUMBER with the max number of stargazers or repos per user you want returned (maximum is no more than 3 per user). 
+
+Full example URL: http://127.0.0.1:5000/api/v1/resources/reposandgazers?id=palantir&maxNumGazers=2&maxNumRepos=1
 
 Note that:
 
