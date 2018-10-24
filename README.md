@@ -51,10 +51,9 @@ A user that will have no result tree: http://127.0.0.1:5000/api/v1/resources/rep
 
 
 No user name: 
+http://127.0.0.1:5000/api/v1/resources/reposandgazers
 Produces error page.
 Shows code handles that exception appropriately
-http://127.0.0.1:5000/api/v1/resources/reposandgazers
-
 
 No user name but max stargazers: http://127.0.0.1:5000/api/v1/resources/reposandgazers?maxNumGazers=3
 Produces error page.
@@ -72,6 +71,9 @@ Shows code can produce a larger list (proof of concept)
 Repeated calls to trigger the IP block: 
 http://127.0.0.1:5000/api/v1/resources/reposandgazers?id=Palantir&maxNumGazers=3&maxNumRepos=3
 
-Do this two or three times
-Will display error message
+Do this two or three times.
+
+Will display error message.
+
+
 NOTE tester will be prevented from testing at this point for ~ 1 hr!!!
